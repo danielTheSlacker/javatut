@@ -18,7 +18,24 @@ class RelationalOperators {
         }
 
         // write your code below
-
+        int i = 1;
+        int j = i;
+        boolean match = true;
+        System.out.println(!match);
+        System.out.println(a > b ? "a is greater b" : "b is greater a");
+        boolean equal = i == j;
+        boolean iSmallerOrEqualJ = i<=j;
+        boolean iGreaterOrEqualJ = i>=j;
+        boolean iLessJ = i<j;
+        boolean jLessI = i>j;
+        ++j;
+        boolean iMatchJ = i != j;
+        System.out.println("i equal j: " + equal);
+        System.out.println("i <= j: " + iSmallerOrEqualJ);
+        System.out.println("i >= j: " + iGreaterOrEqualJ);
+        System.out.println("i < j: " + iLessJ);
+        System.out.println("j < i: " + jLessI);
+        System.out.println("i != j : " + iMatchJ);
     }
 
 }

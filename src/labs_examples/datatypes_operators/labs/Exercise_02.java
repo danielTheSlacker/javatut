@@ -24,6 +24,12 @@ public class Exercise_02 {
     public static void main(String[] args) {
 
         // write code here
+        int a = 10;
+        double d = a;
+        System.out.println(d);
 
+        double dd = 10.5;
+        int b = (int) dd;
+        System.out.println(b + ", and the decimals are lost on narrowing.");
     }
 }

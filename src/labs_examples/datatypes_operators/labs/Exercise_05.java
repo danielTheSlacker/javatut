@@ -19,6 +19,31 @@ class LogicalOperators {
 
         // write your code below
 
+        String name = null;
+        if (name != null && name.length() > 10) {
+            System.out.println("Its a rather long name.");
+        }
+        name = "Joe";
+        if (name != null & name.length() > 10) {
+            System.out.println("Its a rather long name.");
+        }
+
+        if (name == null || name.length() <= 0) {
+            System.out.println("name is null or empty.");
+        }
+        if (name == null | name.length() <= 0) {
+            System.out.println("One can not have no name.");
+        }
+
+        if (name != null) {
+            System.out.println("Thank U " + name);
+        }
+
+        boolean treu = true;
+        boolean fales = false;
+
+        boolean result = treu ^ fales;
+        System.out.println(treu + " ^ " + fales + " : " + result);
     }
 
 }
